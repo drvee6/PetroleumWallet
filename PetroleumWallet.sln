@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetroleumWallet", "PetroleumWallet.csproj", "{EB1F528F-37F0-487B-89B7-34501FAA09C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetroleumWallet.BusinessLogic", "..\PetroleumWallet.BusinessLogic\PetroleumWallet.BusinessLogic.csproj", "{09DD6DA0-FE7B-485F-AC4F-A3498110B868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetroleumWallet.Domain", "..\PetroleumWallet.Domain\PetroleumWallet.Domain.csproj", "{BEDF2AED-743D-44C7-B3D5-27DF650F9010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetroleumWallet.DataAccess", "..\PetroleumWallet.DataAccess\PetroleumWallet.DataAccess.csproj", "{4518BA26-97B6-4626-8EE1-815FC6CC5B54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB1F528F-37F0-487B-89B7-34501FAA09C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1F528F-37F0-487B-89B7-34501FAA09C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1F528F-37F0-487B-89B7-34501FAA09C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1F528F-37F0-487B-89B7-34501FAA09C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09DD6DA0-FE7B-485F-AC4F-A3498110B868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09DD6DA0-FE7B-485F-AC4F-A3498110B868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09DD6DA0-FE7B-485F-AC4F-A3498110B868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09DD6DA0-FE7B-485F-AC4F-A3498110B868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEDF2AED-743D-44C7-B3D5-27DF650F9010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDF2AED-743D-44C7-B3D5-27DF650F9010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDF2AED-743D-44C7-B3D5-27DF650F9010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDF2AED-743D-44C7-B3D5-27DF650F9010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4518BA26-97B6-4626-8EE1-815FC6CC5B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4518BA26-97B6-4626-8EE1-815FC6CC5B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4518BA26-97B6-4626-8EE1-815FC6CC5B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4518BA26-97B6-4626-8EE1-815FC6CC5B54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE0EDCA3-8E0C-4467-8557-C0E932CA7A75}
+	EndGlobalSection
+EndGlobal
